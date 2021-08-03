@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color:#F7F7F7;
+}
+canvas {
+  position: absolute;
+  top: 35%;
+  left: 24%;
+  transform: translateY(-65%);
+  display: block;
+  background-color:#F7F7F7;
+  
+}
+.credits
+{
+   position: absolute;
+   top: 60%;
+   left: 18%;
+   font-size: 25px;
+   color:#222;
+}
+.inst
+{
+  position: absolute;
+  top: 70%;
+  left: 27%;
+  font-size: 20px;
+  color: #333;
+  width: 600px;
+  text-align: center;
+}
+.reset
+{
+  color: #222;
+}
+.luck
+{
+  color: #ff00ff;
+  filter: opacity(80%);
+}
+.upgrade
+{
+  position: absolute;
+  top: 85%;
+  left: 41%;
+  color: rgb(255, 5, 5);
+  font: 20px;
+
+}
